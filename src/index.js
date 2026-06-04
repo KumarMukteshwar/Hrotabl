@@ -27,7 +27,7 @@ import { HeroUIProvider } from '@heroui/react';
 
 import App from './App';
 import AppTwo from './AppTwo';
-import AppThree from './AppThree';
+import AppThree from './AppNoheck';
 import AppFour from './AppFour';
 import HeroTable from  './heroTable';
 
@@ -48,7 +48,7 @@ root.render(
             {/* <AppTwo />
             <HeroTable /> */}
             <NewTable />
-        {/* <AppThree /> */}
+        <AppThree />
           </div>
         </div>
 
