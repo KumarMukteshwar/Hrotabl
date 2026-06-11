@@ -30,9 +30,12 @@ import AppTwo from './AppTwo';
 import AppThree from './AppNoheck';
 import AppFour from './AppFour';
 import HeroTable from  './heroTable';
+import ColTable from './ColTable';
 
 import './index.css';
 import NewTable from './NewTable';
+import KumarHeroTable from './KumarHeroTable';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -47,8 +50,10 @@ root.render(
           <div className="border-t border-divider pt-8">
             {/* <AppTwo />
             <HeroTable /> */}
-            <NewTable />
-        <AppThree />
+            {/* <KumarHeroTable/> */}
+            {/* <NewTable /> */}
+        {/* <AppThree /> */}
+        <ColTable/> 
           </div>
         </div>
 
